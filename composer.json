@@ -1,0 +1,37 @@
+{
+    "name": "marifhasan/helpers",
+    "description": "helper functions, Laravel, PHP",
+    "type": "library",
+    "homepage": "https://github.com/marifhasan/helpers",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0|^10.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marifhasan\\Helpers\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arif Hasan",
+            "email": "arif.saiket@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"extra": {
+		"branch-alias": {
+			"dev-main": "1.0-dev"
+		},
+        "laravel": {
+            "providers": [
+                "Marifhasan\\Helpers\\HelpersServiceProvider"
+            ],
+            "aliases": {
+                "Helpers": "Marifhasan\\Helpers\\Facades\\Helpers"
+            }
+        }
+    }
+
+}

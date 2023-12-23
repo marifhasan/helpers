@@ -10,9 +10,9 @@ $ composer require marifhasan/helpers
 Add below lines to composer.json
 ```
 "autoload": {
-  "files": [
-    "vendor/marifhasan/helpers/src/math.php"
-  ]
+	"files": [
+		"vendor/marifhasan/helpers/src/math.php"
+	]
 },
 ```
 

@@ -10,9 +10,9 @@ $ composer require marifhasan/helpers
 Add below lines to composer.json
 ```
 "autoload": {
-	"files": [
-		"vendor/marifhasan/helpers/src/math.php"
-	]
+  "files": [
+    "vendor/marifhasan/helpers/src/math.php"
+  ]
 },
 ```
 
@@ -22,7 +22,7 @@ Usage
 Available math short functions for your application use:
 
 ```
-to_qty -- 
+to_qty
 to_amount
 to_ordinal
 to_number

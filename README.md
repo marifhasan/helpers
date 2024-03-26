@@ -4,7 +4,7 @@ Installation
 Official installation method is via composer and its packagist package [marifhasan/helpers](https://packagist.org/packages/marifhasan/helpers).
 
 ```
-$ composer require marifhasan/helpers
+composer require marifhasan/helpers
 ```
 
 Add below lines to composer.json
@@ -14,6 +14,10 @@ Add below lines to composer.json
 		"vendor/marifhasan/helpers/src/math.php"
 	]
 },
+```
+
+```
+composer dump-autoload
 ```
 
 Usage
